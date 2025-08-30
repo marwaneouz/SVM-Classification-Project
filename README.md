@@ -31,8 +31,7 @@ Ce projet présente une implémentation complète des **Support Vector Machines 
 - **Précision (noyau polynomial)** : 54%
 - ✅ Le noyau linéaire est plus efficace ici : les classes sont presque linéairement séparables.
 
-![Frontière de décision - SVM Linéaire (Iris)](reports/figures/svm_iris_linear.png)
-*Frontière de décision avec SVM linéaire (classes 1 vs 2)*
+ 
 
 ---
 
@@ -41,8 +40,7 @@ Ce projet présente une implémentation complète des **Support Vector Machines 
 - **Précision (données déséquilibrées)** : 93.6%
 - ✅ L’équilibrage des classes améliore la performance.
 
-![Matrice de confusion - SVM sur visages](reports/figures/confusion_matrix_faces.png)
-*Matrice de confusion sur la reconnaissance faciale*
+ 
 
 ---
 
@@ -51,8 +49,7 @@ Ce projet présente une implémentation complète des **Support Vector Machines 
 - Un `C` élevé → sur-apprentissage possible
 - **Optimum autour de C = 1**
 
-![Influence du paramètre C](reports/figures/c_vs_accuracy.png)
-*Accuracy en fonction de C (échelle logarithmique)*
+ 
 
 ---
 
@@ -67,19 +64,4 @@ Ce projet présente une implémentation complète des **Support Vector Machines 
 
 ---
 
-## 📁 Structure du projet
-TP-SVM-Master-IMSD/
-├── README.md # Ce fichier
-├── requirements.txt # Dépendances Python
-├── svm_iris.ipynb # SVM sur Iris
-├── svm_faces.ipynb # SVM sur LFW
-├── reports/
-│ ├── figures/ # Images générées
-│ │ ├── svm_iris_linear.png
-│ │ ├── confusion_matrix_faces.png
-│ │ └── c_vs_accuracy.png
-│ └── TP_SVM.pdf # Rapport complet
-├── src/
-│  
-└─ 
-└── .gitkeep
+ 
